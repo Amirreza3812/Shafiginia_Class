@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.sidebar {
+  /* border: 3px solid black; */
+  width: 20vw;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  background-color: #0f0f0f;
+  display: flex;
+  flex-direction: column;
+  color: whitesmoke;
+  padding: 10px 30px;
+}
+
+.review div,
+.container div {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.container,
+.review {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+hr {
+  margin: 20px 0;
+}
+.sub{
+  border-radius: 75%;
+}
+.review div:hover,
+.container div:hover{
+  cursor: pointer;
+  opacity: 0.3;}
+  
+  
