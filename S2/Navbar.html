@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbar</title>
+    <style>
+      body {
+        background-color: #1a1a1a;
+        display: flex;
+        justify-content: center;
+      }
+      .navbar {
+        background-color: lightblue;
+        width: 90vw;
+        height: 8vh;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 20px;
+      }
+      .FlexContainer {
+        display: flex;
+        align-items: center;
+        column-gap: 20px;
+      }
+      .Topic {
+        margin: auto 0;
+      }
+
+      .FlexContainer div,
+      .Topic {
+        background-color: rgba(148, 173, 148, 0);
+        padding: 5px 10px;
+        transition: all 300ms;
+        border-radius: 5px;
+      }
+      .FlexContainer div:hover, .Topic:hover {
+        cursor: pointer;
+        background-color: rgba(148, 173, 148, 0.5);
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="FlexContainer">
+        <div>Songs</div>
+        <div>Movies</div>
+        <div>Books</div>
+        <div>Navbar</div>
+      </div>
+      <div class="Topic">NavbarName</div>
+    </div>
+  </body>
+</html>

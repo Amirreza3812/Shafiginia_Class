@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid</title>
+    <!-- Favicon ? -->
+    <!-- <link rel="stylesheet" href=""> -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=more_vert"
+    />
+    <style>
+      .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: repeat(4, 400px);
+        column-gap: 20px;
+        row-gap: 50px;
+      }
+      .container > div {
+        /* width: 200px; */
+        /* height: 300px; */
+        border: 2px solid black;
+      }
+      .card {
+        padding: 5px;
+      }
+      .card > img {
+        width: 100%;
+        height: 50%;
+        border-radius: 10px;
+      }
+      .card-footer {
+        display: flex;
+        direction: rtl;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div>
+          <img src="./images/-1.png" alt="" />
+          <p>hhhhhhhh</p>
+        </div>
+
+        <div class="card-footer">
+          <div>
+            <img src="./images/profile.png" alt="" />
+          </div>
+          <div>
+            <h3>𝐘𝐨𝐮 𝐚𝐫𝐞 𝐝𝐞𝐬𝐢𝐠𝐧𝐢𝐧𝐠 𝐝𝐫𝐞𝐚𝐦𝐬 | 𝐈𝐧𝐜𝐞𝐩𝐭𝐢𝐨𝐧 𝐒𝐨𝐮𝐧𝐝𝐭𝐫𝐚𝐜𝐤</h3>
+            <p>𝐌𝐔𝐍𝐃𝐈 𝐎𝐏𝐔𝐒</p>
+            <p>‏270 هزار بازدید</p>
+          </div>
+
+          <div><span class="material-symbols-outlined"> more_vert </span></div>
+        </div>
+      </div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </body>
+</html>
